@@ -21,10 +21,7 @@ Install `cargo lipo` with `cargo install cargo-lipo`. `cargo lipo` can be build 
 You also need a rust compiler which can compile for the iOS targets. If you use [rustup](https://www.rustup.rs/) all you should have to do is
 
 ```sh
-rustup target add aarch64-apple-ios
-rustup target add armv7-apple-ios
-rustup target add i386-apple-ios
-rustup target add x86_64-apple-ios
+rustup target add aarch64-apple-ios armv7-apple-ios i386-apple-ios x86_64-apple-ios
 ```
 
 **Note:** This should work on stable starting with the 1.8 release.
